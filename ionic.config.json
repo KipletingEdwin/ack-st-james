@@ -1,0 +1,7 @@
+{
+  "name": "ack-st-james",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
