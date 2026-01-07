@@ -11,4 +11,4 @@ import { LayoutComponent } from './layout.component';
   declarations: [LayoutComponent ],
   exports: [LayoutComponent ]
 })
-export class LayoutComponent Module {}
+export class LayoutComponentModule {}
