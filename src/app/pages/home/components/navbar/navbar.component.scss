@@ -1,42 +1,22 @@
-// .navbar {
-//     --background: #ffffff;
-//     --color: #222;
+.navbar {
+    --background: #ffffff;
+    --color: #222;
   
-//     .logo {
-//       font-weight: 700;
-//       font-size: 1.2rem;
-//     }
+    .logo {
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
   
-//     .nav-links {
-//       display: none;
-//       gap: 20px;
-//       align-items: center;
+    .nav-links ion-button {
+      font-weight: 500;
+      color: #222;
+    }
+  }
   
-//       a {
-//         text-decoration: none;
-//         color: #222;
-//         font-weight: 500;
-//         transition: color 0.2s ease;
-  
-//         &:hover {
-//           color: #4b79a1;
-//         }
-//       }
-//     }
-  
-//     .mobile-menu {
-//       display: flex;
-//     }
-//   }
-  
-//   /* Desktop breakpoint */
-//   @media (min-width: 768px) {
-//     .nav-links {
-//       display: flex;
-//     }
-  
-//     .mobile-menu {
-//       display: none;
-//     }
-//   }
+  /* Mobile: hide the nav links */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  }
   
