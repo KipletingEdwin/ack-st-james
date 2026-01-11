@@ -1,3 +1,53 @@
-<p>
-  home works!
-</p>
+<ion-content fullscreen class="ion-padding" >
+  
+  <section class="hero"  >
+    <h1>Welcome to St James Koromosho</h1>
+    <p>  A place to grow in faith, find belonging, and experience God’s love.</p>
+    <div class="hero-buttons">
+      <ion-button>Join Us This Sunday</ion-button>
+      <ion-button
+      shape="round"
+      >Watch Live</ion-button>
+    </div>
+  </section>
+
+  <section class="about" >
+    <h2>Who we are</h2>
+    <p>
+      ACK St James Koromosho is a Christ‑centered family committed to worship,
+      discipleship, and service. Whether you're exploring faith or looking for a
+      home church, you are welcome here.
+    </p>
+  </section>
+
+  <section class="service-times"  >
+    <h2>Service Times</h2>
+    <ion-card *ngFor="let service of serviceTimes"    >
+      <ion-card-header>
+        <ion-card-title>{{ service.title }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{ service.time }}
+      </ion-card-content>
+    </ion-card>
+  </section>
+
+  <section class="ministries">
+    <h2>Our Mnistries</h2>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="4"   *ngFor="let ministry of ministries">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>{{ministry.name}}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              {{ministry.description}}
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </section>
+
+</ion-content>

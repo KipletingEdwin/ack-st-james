@@ -1,0 +1,41 @@
+.hero{
+    text-align: center;
+    padding: 60px 20px 40px;
+    color: #fff;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    
+        ion-button {
+          margin-bottom: 10px;
+        }
+
+}
+
+.hero h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.hero p{
+    margin-top: 10px;
+    opacity: 0.9;
+    font-size: 1.1rem;
+}
+
+.hero-buttons{
+    margin-top: 25px;
+}
+
+.about,
+.service-times,
+.ministries {
+  padding: 20px;
+
+  h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+
+.ministry-card {
+  text-align: left;
+}
