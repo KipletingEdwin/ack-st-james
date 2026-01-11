@@ -1,3 +1,40 @@
-<p>
-  ministries-grid works!
-</p>
+<section class="ministries">
+  <h2>Our Ministries</h2>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" sizeMd="6" *ngFor="let ministry of ministries">
+        <ion-card class="ministry-card">
+          <ion-card-header>
+            <ion-card-title>{{ministry.name}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            {{ministry.description}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</section>
+
+
+
+<!-- <section class="ministries">
+  <h2>Our Ministries</h2>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" sizeMd="6" *ngFor="let ministry of ministries">
+        <ion-card class="ministry-card">
+          <ion-card-header>
+            <ion-card-title>{{ ministry.name }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            {{ ministry.description }}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</section> -->
