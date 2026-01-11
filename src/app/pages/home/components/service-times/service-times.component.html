@@ -1,0 +1,16 @@
+<section  class="service-times">
+  <h2>Service Times</h2>
+
+  <ion-card *ngFor="let service of serviceTimes">
+    <ion-card-header>
+      <ion-card-title>{{ service.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{service.time}}
+    </ion-card-content>
+  </ion-card>
+</section>
+
+
+
+

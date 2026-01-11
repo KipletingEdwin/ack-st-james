@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
 import { IonicModule } from '@ionic/angular';
-import { NavbarComponent } from './navbar.component';
+
+import { ServiceTimesComponent } from './service-times.component';
 
 @NgModule({
   imports: [ CommonModule, FormsModule, IonicModule,],
-  declarations: [NavbarComponent ],
-  exports: [NavbarComponent ]
+  declarations: [ServiceTimesComponent ],
+  exports: [ServiceTimesComponent ]
 })
-export class NavbarComponentModule {}
+export class ServiceTimesComponentModule {}
