@@ -11,4 +11,4 @@ import { SermonsComponent } from './sermons.component';
   declarations: [SermonsComponent ],
   exports: [SermonsComponent ]
 })
-export class SermonsComponent Module {}
+export class SermonsComponentModule {}

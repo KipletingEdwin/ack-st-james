@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { MinistiesComponent } from './ministies.component';
+import { MinistriesComponent } from './ministries.component';
 
 @NgModule({
   imports: [ CommonModule, FormsModule, IonicModule,],
-  declarations: [MinistiesComponent ],
-  exports: [MinistiesComponent ]
+  declarations: [MinistriesComponent ],
+  exports: [MinistriesComponent ]
 })
-export class MinistiesComponent Module {}
+export class MinistriesComponentModule {}

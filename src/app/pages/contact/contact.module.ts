@@ -11,4 +11,4 @@ import { ContactComponent } from './contact.component';
   declarations: [ContactComponent ],
   exports: [ContactComponent ]
 })
-export class ContactComponent Module {}
+export class ContactComponentModule {}
