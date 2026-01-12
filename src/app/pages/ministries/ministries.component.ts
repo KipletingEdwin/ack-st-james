@@ -12,4 +12,15 @@ export class MinistriesComponent  implements OnInit {
 
   ngOnInit() {}
 
+  ministries = [
+    {
+      name: 'Childrens Ministry',
+      description: 'Teaching and nurturing children in the love of Christ.'
+    },
+    {
+      name: 'Childrens Ministry',
+      description: 'Teaching and nurturing children in the love of Christ.'
+    },
+  ]
+
 }
