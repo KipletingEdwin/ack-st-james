@@ -25,6 +25,18 @@ export class MinistriesComponent  implements OnInit {
       name: 'Women’s Fellowship',
       description: 'Encouraging spiritual growth and unity among women.',
     },
-  ]
+    {
+      name: 'Men’s Fellowship',
+      description: 'Building strong, Christ-centered men for family and community.',
+    },
+    {
+      name: 'Worship Team',
+      description: 'Leading the congregation in praise and worship.',
+    },
+    {
+      name: 'Community Outreach',
+      description: 'Serving the community through acts of love and compassion.',
+    }
+  ];
 
 }
