@@ -12,4 +12,16 @@ export class ContactComponent  implements OnInit {
 
   ngOnInit() {}
 
+  form = {
+    name: '',
+    email: '',
+    message: ''
+  };
+
+  submitForm(){
+    console.log('Form submitted:', this.form);
+    alert('Thank you for reaching out! We will get back to you soon.')
+  }
+
+
 }
