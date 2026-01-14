@@ -1,3 +1,43 @@
-<p>
-  contact works!
-</p>
+<ion-content fullscreen>
+
+  <section class="contact-hero">
+    <h1>Concat Us</h1>
+    <p>WE'd love to hear from you. React out anytime.</p>
+  </section>
+
+  <section class="contact-section">
+    <h2>Get in Touch</h2>
+
+    <ion-list lines="full">
+      <ion-item>
+        <ion-label position="stacked" >Your Name</ion-label>
+        <ion-input [(ngModel)]="form.name" placeholder="Enter your name" ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" >Email Address</ion-label>
+        <ion-input [(ngModel)]="form.email" placeholder="Enter your email" ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" >Message</ion-label>
+        <ion-input [(ngModel)]="form.message" placeholder="Write your message" ></ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <ion-button expand="block" class="submit-btn"  (click)="submitForm()" >
+      Send Message
+    </ion-button>
+  </section>
+
+  <section class="contact-info">
+    <h2>Church Information</h2>
+    <p><strong>Phone:</strong>0712345678</p>
+    <p><strong>Email:</strong>info@ackstjames.org</p>
+    <p><strong>Location:</strong>Koromosho, Eldoret</p>
+
+  </section>
+
+
+</ion-content>
