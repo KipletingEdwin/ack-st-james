@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { NavbarComponent } from './navbar.component';
+import { AppRoutingModule } from "src/app/app-routing.module";
 
 @NgModule({
-  imports: [ CommonModule, FormsModule, IonicModule,],
+  imports: [CommonModule, FormsModule, IonicModule, AppRoutingModule],
   declarations: [NavbarComponent ],
   exports: [NavbarComponent ]
 })

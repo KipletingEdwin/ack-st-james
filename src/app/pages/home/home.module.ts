@@ -7,6 +7,7 @@ import { HomePage } from './home.page';
 import { HeroComponentModule } from './components/hero/hero.module';
 import { ServiceTimesComponentModule } from './components/service-times/service-times.module';
 import { MinistriesGridComponentModule } from './components/ministries-grid/ministries-grid.module';
+import { NavbarComponentModule } from './components/navbar/navbar.module';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { MinistriesGridComponentModule } from './components/ministries-grid/mini
     HeroComponentModule,
     ServiceTimesComponentModule,
     MinistriesGridComponentModule,
+    NavbarComponentModule,
     
   ],
   declarations: [HomePage]

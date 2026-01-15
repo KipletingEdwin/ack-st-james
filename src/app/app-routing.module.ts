@@ -11,22 +11,22 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
-  {
-    path: 'about',
-    loadChildren: () => import('./pages/about/about.module').then( m => m.AboutComponentModule)
-  },
-  { 
-  path: 'ministries',
-  loadChildren: () => import('./pages/ministries/ministries.module').then( m => m.MinistriesComponentModule)
-  },
-  { 
-  path: 'sermons',
-  loadChildren: () => import('./pages/sermons/sermons.module').then( m => m.SermonsComponentModule)
-  },
-  { 
-  path: 'contact',
-  loadChildren: () => import('./pages/contact/contact.module').then( m => m.ContactComponentModule)
-  },
+  // {
+  //   path: 'about',
+  //   loadChildren: () => import('./pages/about/about.module').then( m => m.AboutComponentModule)
+  // },
+  // { 
+  // path: 'ministries',
+  // loadChildren: () => import('./pages/ministries/ministries.module').then( m => m.MinistriesComponentModule)
+  // },
+  // { 
+  // path: 'sermons',
+  // loadChildren: () => import('./pages/sermons/sermons.module').then( m => m.SermonsComponentModule)
+  // },
+  // { 
+  // path: 'contact',
+  // loadChildren: () => import('./pages/contact/contact.module').then( m => m.ContactComponentModule)
+  // },
 ];
 
 @NgModule({
